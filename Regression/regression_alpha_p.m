@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-myDir        = './dataset/identified_parameters';
+myDir        = './dataset/identified_parameters/';
 myFiles      = dir(fullfile(myDir,'*.mat'));
 alpha        = [];
 date         = [];
@@ -14,7 +14,7 @@ for k = 1:length(myFiles)
   baseFileName = myFiles(k).name;
   fullFileName = fullfile(myDir, baseFileName);
   if contains(baseFileName, 'alphas')
-      load(strcat('./data/', baseFileName));
+      load(strcat('./dataset/identified_parameters/', baseFileName));
       alpha = cat(2, alpha, alphas);
       if all(alphas < 1)
          fprintf('Valid. All alpha smaller than 1. \n')
@@ -22,7 +22,7 @@ for k = 1:length(myFiles)
          fprintf('Invalid. Exist alpha greater than 1. \n')
       end
   else 
-      load(strcat('./data/', baseFileName));
+      load(strcat('./dataset/identified_parameters/', baseFileName));
       dates        = datenum(dates);
       length_dates = cat(1, length_dates, length(dates));
       dates_shift  = [dates(2:end); 0];
