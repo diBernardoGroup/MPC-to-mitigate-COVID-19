@@ -34,7 +34,7 @@ for k = 1:length(myFiles)
 end
 
 %% find the index of the regions
-test_data          = readtable('./dati-regioni/dpc-covid19-ita-regioni.csv');
+test_data          = readtable('./dataset/regional_testing_data/dpc-covid19-ita-regioni.csv');
 region_index       = [];
 region_index(:,1)  = find(contains(test_data.denominazione_regione,'Umbria'));
 region_index(:,2)  = find(contains(test_data.denominazione_regione,'Marche'));
