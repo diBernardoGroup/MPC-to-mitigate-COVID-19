@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-myDir        = './dataset/identified_parameters/';
+myDir        = './dataset/identified_parameters';
 myFiles      = dir(fullfile(myDir,'*.mat'));
 alpha        = [];
 date         = [];
