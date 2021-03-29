@@ -23,25 +23,26 @@ This READ ME is organized as follows:
 # Simulator Description
 
 The program is run simply by running main.m
+
 Parameters to change the scenario to be run are at the beginning of main.m and are described by comments in the code; the name of variables is taken from the corresponding variables in the paper.
 
 To run scenario 1 in the paper, set the following:
-contraction_method = 'global';
-sigma_pool         = 0;
-epsilon_H          = 0; 
-epsilon_R          = 0;    
+1. contraction_method = 'global';
+2. sigma_pool         = 0;
+3. epsilon_H          = 0; 
+4. epsilon_R          = 0;    
 
 To run scenario 2 in the paper, set the following:
-contraction_method = 'local';
-sigma_pool         = 0;
-epsilon_H          = 0.3; 
-epsilon_R          = 1.3;    
+1. contraction_method = 'local';
+2. sigma_pool         = 0;
+3. epsilon_H          = 0.3; 
+4. epsilon_R          = 1.3;    
 
 To run scenario 3 in the paper, set the following:
-contraction_method = 'local';
-sigma_pool         = [0 0.5 1];
-epsilon_H          = 0.3; 
-epsilon_R          = 1.3;    
+1. contraction_method = 'local';
+2. sigma_pool         = [0 0.5 1];
+3. epsilon_H          = 0.3; 
+5. epsilon_R          = 1.3;    
 
 The results of these simulations are already contained in the "simulations" folder.
 
