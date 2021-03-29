@@ -4,6 +4,14 @@ This repository contains the code used in the paper:
 > M. Coraggio, S. Xie, F. De Lellis, G. Russo, M. di Bernardo, "Intermittent non-pharmaceutical strategies to mitigate the COVID-19 epidemic in a network model of Italy via constrained optimization"
 
 
+
+**SYSTEM REQUIREMENTS**
+
+All the scripts listed were developed using MATLAB R2020b on Windows Server 2019 (64-bit) OS.
+The hardware used for simulations is an Intel Xeon Gold 6226 chip and 32Gb RAM DDR4.
+With this system, each of the simulations takes approximately one hour and a half. 
+
+
 **REPOSITORY ORGANIZATION** 
 
 The repository is organized as follows:
