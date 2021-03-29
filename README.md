@@ -30,19 +30,19 @@ To run scenario 1 in the paper, set the following:
 1. contraction_method = 'global';
 2. sigma_pool         = 0;
 3. epsilon_H          = 0; 
-4. epsilon_R          = 0;    
+4. epsilon_R          = 0.   
 
 To run scenario 2 in the paper, set the following:
 1. contraction_method = 'local';
 2. sigma_pool         = 0;
 3. epsilon_H          = 0.3; 
-4. epsilon_R          = 1.3;    
+4. epsilon_R          = 1.3.    
 
 To run scenario 3 in the paper, set the following:
 1. contraction_method = 'local';
 2. sigma_pool         = [0 0.5 1];
 3. epsilon_H          = 0.3; 
-5. epsilon_R          = 1.3;    
+5. epsilon_R          = 1.3.    
 
 The results of these simulations are already contained in the "simulations" folder.
 
