@@ -162,6 +162,8 @@ INPUT:
 
 OUTPUT: pars            (Parameters identified)
 
+For more detailed information please refer to the folder https://github.com/diBernardoGroup/Network-model-of-the-COVID-19
+
 **IDENTIFICATION PROCEDURE**
 
 Regional Identification: In this section, we provide instructions to run the identification procedure for a given region
