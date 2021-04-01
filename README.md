@@ -3,6 +3,7 @@ This repository contains the code used in the paper:
 
 > M. Coraggio, S. Xie, F. De Lellis, G. Russo, M. di Bernardo, "Intermittent non-pharmaceutical strategies to mitigate the COVID-19 epidemic in a network model of Italy via constrained optimization"
 
+for more detail please read the paper at arxiv.org/abs/2103.16502
 
 
 **SYSTEM REQUIREMENTS**
