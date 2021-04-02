@@ -176,3 +176,8 @@ Regional Identification: In this section, we provide instructions to run the ide
 5. Merge the windows following the procedure described in section S2 of the SI;
 6. Run 'stage2_r.m' given the merged time windows obtained at point 5;
 7. Run 'stage3_r.m'.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+# Regression Description
+
+The regression can be obtained by simply running the regression_alpha_p.m file. For the explanation of the procedure and the quantities involved in the regression, please refer to the paper. 
